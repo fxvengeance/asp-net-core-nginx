@@ -44,6 +44,6 @@ services:
       - web
       - api
     ports:
-      - 3000:3000
       - 4000:4000
+      - 4001:4001
     restart: unless-stopped
